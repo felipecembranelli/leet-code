@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-static class leetCode {
+static class ContainsDuplicated {
 
     public static void ContainsDuplicate() {
 
