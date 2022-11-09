@@ -5,7 +5,7 @@ using System.Collections;
 static class Palindrome {
 
 
-    // solution brutal force (O(nˆ2) or O(n log n))
+    // O(N)
     public static bool Calculate(string s)
     {
 
@@ -15,7 +15,7 @@ static class Palindrome {
         int pointer1 = 0;
         int pointer2 = s.Length-1;
 
-        s = s.ToLower();
+        //s = s.ToLower();
 
 
         while (pointer1 < pointer2)
@@ -27,7 +27,7 @@ static class Palindrome {
             else if (!char.IsLetterOrDigit(s[pointer2]))
                 pointer2--;
 
-            else if (s[pointer1] != s[pointer2])
+            else if (s[pointer1].ToString().ToLower() != s[pointer2].ToString().ToString())
                 return false;
             else
             {
