@@ -15,13 +15,17 @@ Console.WriteLine("Hello, Leetcode!");
 //Console.WriteLine("Palindrome:" + Palindrome.Calculate("amanaplanacanalpanama").ToString());
 //Console.WriteLine("Palindrome:" + Palindrome.Calculate("amanaplan1acanalpanama").ToString());
 
-Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 7, 1, 5, 3, 6, 4 }).ToString());
+//Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 7, 1, 5, 3, 6, 4 }).ToString());
 
-Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 7, 6, 4, 3, 1 }).ToString());
+//Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 7, 6, 4, 3, 1 }).ToString());
 
-Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 1, 6, 4, 3, 7 }).ToString());
+//Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 1, 6, 4, 3, 7 }).ToString());
 
-Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 7, 6, 4, 3, 5 }).ToString());
+//Console.WriteLine("Buy and Sell:" + BuySellStock.Calculate2(new int[] { 7, 6, 4, 3, 5 }).ToString());
 
+
+//ValidParentheses.Calculate(new string[] { "(", "{", "[", "]", "}", ")" });
+
+ValidParentheses.Calculate(new string[] { "(", "{", "[", "}", "]", ")" });
 
 Console.WriteLine("finished");
