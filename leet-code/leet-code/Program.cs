@@ -26,6 +26,19 @@ Console.WriteLine("Hello, Leetcode!");
 
 //ValidParentheses.Calculate(new string[] { "(", "{", "[", "]", "}", ")" });
 
-ValidParentheses.Calculate(new string[] { "(", "{", "[", "}", "]", ")" });
+//ValidParentheses.Calculate(new string[] { "(", "{", "[", "}", "]", ")" });
+
+// reverse linked list
+var list = new LinkedList();
+list.AddNode(0);
+list.AddNode(1);
+list.AddNode(2);
+list.AddNode(3);
+
+var myList = list.GetAllNodes();
+
+ReverseLinkedList.Reverse((LinkedListNode)myList[0]);
+
+
 
 Console.WriteLine("finished");
