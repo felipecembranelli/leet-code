@@ -1,0 +1,15 @@
+/Users/feliperc/wkd/personal/leet-code/algo/bin/Debug/net7.0/algo
+/Users/feliperc/wkd/personal/leet-code/algo/bin/Debug/net7.0/algo.deps.json
+/Users/feliperc/wkd/personal/leet-code/algo/bin/Debug/net7.0/algo.runtimeconfig.json
+/Users/feliperc/wkd/personal/leet-code/algo/bin/Debug/net7.0/algo.dll
+/Users/feliperc/wkd/personal/leet-code/algo/bin/Debug/net7.0/algo.pdb
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.csproj.AssemblyReference.cache
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.AssemblyInfoInputs.cache
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.AssemblyInfo.cs
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.csproj.CoreCompileInputs.cache
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.dll
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/refint/algo.dll
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.pdb
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/algo.genruntimeconfig.cache
+/Users/feliperc/wkd/personal/leet-code/algo/obj/Debug/net7.0/ref/algo.dll
