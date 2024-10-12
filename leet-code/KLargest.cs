@@ -16,10 +16,10 @@ public static class KLargestElement {
     }
 
     // Driver code
- public static void Main()
-    {
-        int[] arr = new int[] { 1, 23, 12, 9, 30, 2, 50 };
-        int k = 3;
-        kLargest(arr, k);
-    }
+ //public static void Main()
+ //   {
+ //       int[] arr = new int[] { 1, 23, 12, 9, 30, 2, 50 };
+ //       int k = 3;
+ //       kLargest(arr, k);
+ //   }
 }

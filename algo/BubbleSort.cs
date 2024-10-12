@@ -1,8 +1,8 @@
 using System;
   
-static class BubbleSort {
+public static class BubbleSort {
     // An optimized version of Bubble Sort
-    static void bubbleSort(int[] arr, int n)
+    public static void bubbleSort(int[] arr, int n)
     {
         int i, j, temp;
         bool swapped;
@@ -36,12 +36,12 @@ static class BubbleSort {
     }
   
     // Driver method
-    public static void Main()
-    {
-        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
-        int n = arr.Length;
-        bubbleSort(arr, n);
-        Console.WriteLine("Sorted array:");
-        printArray(arr, n);
-    }
+    //public static void Main()
+    //{
+    //    int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
+    //    int n = arr.Length;
+    //    bubbleSort(arr, n);
+    //    Console.WriteLine("Sorted array:");
+    //    printArray(arr, n);
+    //}
 }

@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 
-static class TwoSum {
+public static class TwoSum {
 
 
     // solution brutal force (O(nˆ2) or O(n log n))
@@ -37,6 +37,26 @@ static class TwoSum {
         return String.Format("[{0},{1}]", pos1.ToString(), pos2.ToString());
     }
 
+    public static string CalculateBrutalForce(int[] nums, int target)
+        {
+
+            int i, j = 0;
+
+            for (i = 0; i <= nums.Length - 1; i++)
+            {
+                for (j = i + 1; j <= nums.Length - 1; j++)
+                {
+
+                if ((nums[i] + nums[j]) == target)
+                    //return new int[] { i, j };
+                    return String.Format("[{0},{1}]", i.ToString(), j.ToString());
+                }
+            }
+
+            //return new int[] { -1, -1 };
+            return "[-1,-1]";
+    }
+    
 
     /// <summary>
     /// dictionary solution O(N)

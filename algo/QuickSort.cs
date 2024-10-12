@@ -41,7 +41,7 @@ public static class QuickSort {
     // arr[] --> Array to be sorted,
     // low --> Starting index,
     // high --> Ending index
-    static void quickSort(int[] arr, int low, int high)
+    public static void quickSort(int[] arr, int low, int high)
     {
         if (low < high) {
  
@@ -57,15 +57,15 @@ public static class QuickSort {
     }
  
     // Driver Code
-    public static void Main()
-    {
-        int[] arr = { 10, 7, 8, 9, 1, 5 };
-        int N = arr.Length;
+    //public static void Main()
+    //{
+    //    int[] arr = { 10, 7, 8, 9, 1, 5 };
+    //    int N = arr.Length;
  
-        // Function call
-        quickSort(arr, 0, N - 1);
-        Console.WriteLine("Sorted array:");
-        for (int i = 0; i < N; i++)
-            Console.Write(arr[i] + " ");
-    }
+    //    // Function call
+    //    quickSort(arr, 0, N - 1);
+    //    Console.WriteLine("Sorted array:");
+    //    for (int i = 0; i < N; i++)
+    //        Console.Write(arr[i] + " ");
+    //}
 }
