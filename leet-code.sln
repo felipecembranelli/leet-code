@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datastructures", "datastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datastructures.Tests", "datastructures.tests\Datastructures.Tests.csproj", "{05A64228-B226-48E5-8393-2C3A1A5E0016}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{78F60474-9E11-4607-9923-7A75332704C8}"
+	ProjectSection(SolutionItems) = preProject
+		leet-code\README.md = leet-code\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

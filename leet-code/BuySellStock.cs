@@ -4,7 +4,8 @@ using System.Collections;
 
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
-static class BuySellStock {
+public static class BuySellStock
+{
 
 
     // O(N)
@@ -43,6 +44,8 @@ static class BuySellStock {
     /// </summary>
     /// <param name="prices"></param>
     /// <returns></returns>
+    /// 
+    // O(n)
     public static int Calculate2(int[] prices)
     {
         if (prices.Length == 0) return 0;
@@ -59,4 +62,29 @@ static class BuySellStock {
         return max;
     }
 
+    // O(n)
+    public static int Calculate3(int[] prices)
+    {
+        int min = prices[0];
+        int max = 0;
+
+        for (int i=1; i< prices.Length; i++)
+        {
+            if (min < prices[i])
+            {
+                min = prices[i];
+            }
+            else if ((prices[i] - min) > max) {
+                max = prices[i] - min;
+            }
+        }
+
+        return max;
+               
+
+
+
+    }
+
 }
+    

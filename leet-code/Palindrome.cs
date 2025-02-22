@@ -21,6 +21,7 @@ static class Palindrome {
         //s = s.ToLower();
 
 
+        
         while (pointer1 < pointer2)
         {
 
